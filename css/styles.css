@@ -151,4 +151,28 @@ p{
   background-color: #ff4c68;
   color: #fff;
   text-align: center;
+  padding: 7%;
+  
 }
+
+#cta h3{
+  font-size: 2rem;
+}
+
+.cta-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Footer */
+#footer{
+  text-align: center;
+  background-color: #fff;
+}
+
+#footer i {
+  margin-right: 2%;
+}
+.footer-icons{
+  margin: 5% 3% 2% 3%;
+}
+
