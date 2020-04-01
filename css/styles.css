@@ -64,12 +64,18 @@ p{
 .title-img{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  
+  
 }
 
 /* Features */
 
 #features{
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  
 }
 
 .single-feat{
@@ -91,6 +97,7 @@ p{
   text-align: center;
   background-color: #ff4c68;
   color: #fff;
+  
 }
 
 .testimonial-img{
@@ -115,3 +122,13 @@ p{
   margin: 20px 20px 50px;
 }
 
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.card{
+  padding: 3% 2%;
+}
