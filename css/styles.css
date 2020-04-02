@@ -1,40 +1,44 @@
 body{
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2{
+h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat';
   font-weight: bold;
-  line-height: 1.5;
-  font-size: 2.5rem;
 }
 
-h3{
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family: 'Montserrat';
-}
+
 p{
   color: #8f8f8f;
 }
 
+/* Headings */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
 #title{
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 
 .container-fluid{
   padding: 3% 15% 7%;
 }
 
-/* Naviagtion Bar */
+/* Navigation Bar */
 
 .navbar{
   padding:0 0 4.5rem 0;
@@ -56,18 +60,18 @@ p{
 }
 
 /* Download Buttons */
+
 .download-button{
   margin: 5% 3% 5% 0;
 }
 
 /* Title Image  */
+
 .title-img{
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
-  
-  
 }
 
 /* Features */
@@ -76,12 +80,16 @@ p{
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
-
 }
+
+.feature-text{
+  font-size: 1.5rem;
+}
+
 
 .single-feat{
   padding: 5%;
-  text-align: center;
+  
 }
 
 .icon{
@@ -95,10 +103,13 @@ p{
 /* Testimonials */
 
 #testimonials{
-  text-align: center;
   background-color: #ff4c68;
   color: #fff;
-  
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-img{
@@ -109,12 +120,11 @@ p{
 
 .carousel-item{
   padding: 7% 15%;
-  
 }
+
 /* Press */
 
 #press{
-  text-align:center;
   background-color: #ff4c68;
 }
 
@@ -127,11 +137,16 @@ p{
 
 #pricing{
   padding: 100px;
-  text-align: center;
+  
+}
+
+.pricing-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
 .card{
-  padding: 3% 2%;
+  padding: 1% 2%;
 }
 
 @media (max-width: 1028px) {
@@ -150,13 +165,7 @@ p{
 #cta{
   background-color: #ff4c68;
   color: #fff;
-  text-align: center;
   padding: 7%;
-  
-}
-
-#cta h3{
-  font-size: 3.5rem;
 }
 
 .cta-button{
@@ -166,7 +175,6 @@ p{
 /* Footer */
 
 #footer{
-  text-align: center;
   background-color: #fff;
 }
 
@@ -176,4 +184,3 @@ p{
 .footer-icons{
   margin: 5% 3% 2% 3%;
 }
-
